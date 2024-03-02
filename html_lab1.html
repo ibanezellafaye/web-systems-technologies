@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+
+  table {
+  border-collapse: collapse;
+  font-family: arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+tr :nth-last-child(even){
+  background-color: #eeebeb;
+
+}
+
+tr {
+   
+    color: #007afc;
+    text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007afc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+  width: 15%;
+  
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+
+</style>  
+  <title>Student Registration</title>
+</head>
+  <body>
+    <h1>Student Registration</h1>
+      <form>
+        <table>
+          <tr>
+            <td><b>First Name</b></td>
+            <td><input type = "text"></td>
+          </tr>
+          <tr>
+            <td><b>Last Name</b></td>
+            <td><input type = "text"></td>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td><input type = "email"></td>
+          </tr>
+          <tr>
+            <td><b>Gender</b></td>
+            <td><label for="gender"></label>
+                <select name="Gender" id="Gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Other">Other</option> 
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Birthday</b></td>
+            <td><label for="birthday"></label>
+            <input type="date" id="birthday" name="birthday"></td>
+          </tr>
+          <tr>
+            <td><b>Address</b></td>
+            <td><input type = "text"></td>
+          </tr>
+          <tr>
+            <td><b>City</b></td>
+            <td><input type = "text"></td>
+          </tr>
+          <tr>
+            <td><b>Zip Code</b></td>
+            <td><input type = "text"></td>
+          </tr>
+            <button type="submit">Submit</button>
+      </table>
+    </form>
+</body>
+
+
+
+
+</html>

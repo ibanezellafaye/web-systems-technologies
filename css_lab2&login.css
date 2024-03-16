@@ -1,0 +1,200 @@
+/* Bordered form */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+form {
+    background-color: #ffffff;
+    width: 35%;
+    margin: 12% auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+   
+  }
+  
+   
+  /* Set a style for all buttons */
+.login {
+    background-color: #2189eb;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 3px; 
+    margin-bottom: 35px;
+    width: 25%;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+  }
+  
+ 
+  /* Center the avatar image inside this container */
+.logincontainer {
+    text-align: center;
+    font-size: 25px;
+    margin: 24px 0 12px 0;
+    border-radius: 5px;
+  }
+  
+  /* Add padding to containers */
+.input-group {
+    position: relative;
+    margin: 20px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.input-group input {
+    width: calc(100% - 25px);
+    padding: 10px;
+    padding-left: 40px; /* Added left padding for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+i {
+    color: #2189eb;
+    padding: 18px;
+    
+}
+i.fa-sign-in-alt{
+    color: #ffffff;
+    position: absolute; 
+}
+
+
+
+
+/* dashboard css*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body{
+  background:  whitesmoke;
+}
+
+.wrapper{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+ 
+.wrapper .sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #333;
+  padding: 30px 0;
+  
+}
+
+.wrapper .sidebar h2{
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,0.05);
+  
+}
+
+.wrapper .sidebar ul li a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li:hover{
+  background: gray;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #ccc;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  background: #ffffff;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  padding-left: 13%;
+  background: #2189eb;
+  height: 110px;
+  max-width: 100%;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  text-align: center;
+  padding-left: 13%;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff; 
+  
+}
+
+.logout {
+  background-color: red;
+  color: white;
+  padding: 14px 29px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px; 
+  margin-left: 100px;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 13%;
+  line-height: 20px;
+}

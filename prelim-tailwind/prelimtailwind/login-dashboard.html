@@ -2,12 +2,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="text-4xl text-white bg-red-600 font-bold">
-        Hello World!
+    <div class="bg-gray-200 flex items-center justify-center h-screen">
+            <div class="bg-white p-8 rounded-lg shadow-md w-96">
+                <h1 class="text-2xl font-semibold mb-4">Login</h1>
+
+                <form>
+
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium text-gray-800">
+                                <i class="fas fa-user"></i> Email</label>
+                            <input type="email" fd="email" name="email" class="mb-1 p-2 w-full border rounded-md" placeholder="" required>
+                        </div>
+                        <div>
+                            <label for="password" class="block text-sm font-medium text-gray-800"  placeholder=" " required>
+                                <i class="fas fa-lock"></i> Password</label>
+                            <input type="password" fd="password" name="password" class="mb-1 p-2 w-full border rounded-md" placeholder="" required>
+                        </div>
+                        <div class="login_btn">
+                            <button type="submit" class="login bg-blue-500 text-white p-3 w-full rounded-md mt-3" onclick="location.href='dashboard.html'"><b>Login</b></a></i></button>
+                          </div>
+                </form>
+
+            </div>
     </div>
     
 </body>
